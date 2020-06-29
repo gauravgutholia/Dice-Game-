@@ -42,7 +42,7 @@ function throwDice(btn) {
     document.getElementsByClassName("angry")[0].style.visibility = "visible";
     document.getElementsByClassName("angry1")[1].style.visibility = "visible";*/
   } else {
-    document.querySelector("h1").innerHTML = "Draw! 🚩";
+    document.querySelector("h1").innerHTML = "Game Draw! 🚩";
     var bcd = document.getElementById("right");
     bcd.src = "images/angry.png";
     var bcd = document.getElementById("emoji");
